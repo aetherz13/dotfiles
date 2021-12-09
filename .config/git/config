@@ -1,0 +1,26 @@
+[alias]
+	br = branch -v
+	ci = commit
+	co = checkout
+	hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+	st = status
+[core]
+	pager = delta
+[credential]
+	helper = /usr/lib/git-core/git-credential-libsecret
+[diff "hex"]
+	textconv = xxd -g1
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[init]
+	defaultBranch = main
+[pull]
+	rebase = true
+[rebase]
+	autoSquash = true
+[user]
+	name = Aether Wu
+	email = aetherwu@ami.com

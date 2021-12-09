@@ -1,0 +1,6 @@
+# Machine-generated file - use setup menu in minicom to change parameters.
+pu lock             /tmp/
+pu baudrate         115200
+pu rtscts           No
+pu xonxoff          Yes
+pu logfname
