@@ -1,2 +1,5 @@
 [cmd_duration]
 min_time = 500
+
+[git_status]
+disabled = true
