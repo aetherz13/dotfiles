@@ -1,5 +1,5 @@
 [alias]
-	br = branch -v
+	br = branch -vv
 	ci = commit
 	co = checkout
 	hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
@@ -21,6 +21,11 @@
 	rebase = true
 [rebase]
 	autoSquash = true
+[rerere]
+	enabled = true
+	autoUpdate = true
 [user]
 	name = Aether Wu
 	email = aetherwu@ami.com
+[commit]
+	verbose = true
