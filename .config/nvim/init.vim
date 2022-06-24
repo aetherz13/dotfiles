@@ -18,6 +18,7 @@ Plug 'vim-airline/vim-airline-themes'
 
 Plug 'airblade/vim-gitgutter'
 Plug 'ap/vim-css-color'
+Plug 'dag/vim-fish'
 Plug 'cespare/vim-toml'
 Plug 'fidian/hexmode'
 Plug 'godlygeek/tabular'
