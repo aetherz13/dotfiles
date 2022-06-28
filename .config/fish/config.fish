@@ -7,6 +7,7 @@ end
 
 if status is-interactive
     alias dg='git --git-dir=$HOME/src/dotfiles.git --work-tree=$HOME'
+    alias dgl='git --git-dir=$HOME/src/dotfiles-local.git --work-tree=$HOME'
     alias ls='ls --almost-all --classify --color=auto --group-directories-first -v'
     alias ll='ls --all --human-readable -l --time-style=long-iso'
     alias rg='rg -S'

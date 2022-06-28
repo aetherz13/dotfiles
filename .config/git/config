@@ -24,8 +24,7 @@
 [rerere]
 	enabled = true
 	autoUpdate = true
-[user]
-	name = Aether Wu
-	email = aetherwu@ami.com
 [commit]
 	verbose = true
+[include]
+	path = ~/.config/git/config-local
