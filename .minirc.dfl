@@ -1,6 +1,8 @@
 # Machine-generated file - use setup menu in minicom to change parameters.
+pu port             /dev/ttyS0
 pu lock             /tmp/
 pu baudrate         115200
+pu statusline       disabled
 pu rtscts           No
 pu xonxoff          Yes
 pu logfname
