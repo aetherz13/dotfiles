@@ -1,0 +1,6 @@
+--hidden
+--glob=!.git
+--glob=!.repo
+--max-columns=120
+--max-columns-preview
+--smart-case
