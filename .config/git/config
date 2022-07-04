@@ -6,6 +6,8 @@
 	st = status
 [core]
 	pager = delta
+[diff]
+	colorMoved = default
 [credential]
 	helper = /usr/lib/git-core/git-credential-libsecret
 [diff "hex"]
